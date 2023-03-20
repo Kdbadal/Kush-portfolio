@@ -45,6 +45,7 @@
     color: var(--color-primary);
     margin-top: 2px;
     size: 10px;
+    flex-shrink: 0;
   }
   
   .service__list p {

@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import ME from "../../assets/coverr.png";
+import ME from "../../assets/cover.png";
 import { FiBook } from "react-icons/fi";
 import { TbAward } from "react-icons/tb";
 import { VscFileCode } from "react-icons/vsc";
@@ -29,19 +29,20 @@ const About = () => {
               <h5>Experience</h5>
               <small>Fresher</small>
             </article>
-            <article className="about__card">
+            {/* <article className="about__card">
               <VscFileCode className="about__icon" />
               <h5>Projects</h5>
               <small>5+ FrontEnd Projects</small>
-            </article>
+            </article> */}
           </div>
 
           <p align="justify">
-          I am a 3rd year student in Engineering in Information and Communication Technology, i have a keen interest in DevOps and are passionate about exploring this field further. I understand that DevOps is a critical part of modern software development, and i am eager to learn more about its principles and practices.
+          I am Kushal Badal, a passionate DevOps enthusiast currently pursuing my Engineering degree in Information and Communications Technology. With a strong interest in software development and infrastructure management, I have been exploring various DevOps tools and practices to improve the quality and efficiency of software delivery.
+          {'\n'}
 
-I have a solid foundation in programming, software development, and infrastructure management, which gives you a good understanding of how software systems work. I am also familiar with various DevOps tools and technologies, such as Git, Jenkins, Docker, and Kubernetes, and you are keen to gain more experience in using them.
 
-I am an analytical thinker who enjoys solving problems and improving processes. I understand the importance of collaboration between development and operations teams, and I believe that DevOps can help organizations achieve better software quality, faster time-to-market, and greater efficiency.
+        Apart from technical skills, I possess excellent communication and teamwork abilities, which I believe are essential in any DevOps team. I am always eager to learn new technologies and practices and stay up-to-date with the latest industry trends. With my passion for DevOps, I am confident in my ability to contribute to any team working towards achieving their DevOps goals.
+
           </p>
 
           <a href="#contact" className="btn btn-primary">Let's Talk</a>

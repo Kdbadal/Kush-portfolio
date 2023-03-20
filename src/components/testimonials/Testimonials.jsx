@@ -1,7 +1,7 @@
 import React from "react";
 import "./testimonials.css";
-import ava1 from "../../assets/white.png";
-import ava2 from "../../assets/white.png";
+import ava1 from "../../assets/sudeep.jpg";
+import ava2 from "../../assets/manu.jpg";
 import ava3 from "../../assets/white.png";
 import ava4 from "../../assets/white.png";
 
@@ -18,21 +18,20 @@ import 'swiper/css/pagination';
 const data = [
   {
     avatar: ava1,
-    name: "Amit Mishra",
+    name: "Sudeep Kuchara",
     review:
-      "Mustafa is no ordinary 20 year old. In one summer, he taught himself to code and got a job. He is passionate to learn and study new technology with the mind set of never to stop and keep strieving unless and untill he achivied his goal!!",
+      "Kushal is a very hard-working guy, trying to do deep dive in devops field, he's very ambitious towards his dream and will provide you best from him."
   },
   {
     avatar: ava2,
-    name: "David Roger",
+    name: "Manu Arora",
     review:
-      "Mustafa is no ordinary 20 year old. In one summer, he taught himself to code and got a job. He is passionate to learn and study new technology with the mind set of never to stop and keep strieving unless and untill he achivied his goal!!",
+      "If you're looking for a skilled and knowledgeable DevOps engineer, Kushal should definitely be on your list of candidates, He's very dedicated to his work and keep learning new things",
   },
   {
     avatar: ava3,
-    name: "David Roger",
-    review:
-      "Mustafa is no ordinary 20 year old. In one summer, he taught himself to code and got a job. He is passionate to learn and study new technology with the mind set of never to stop and keep strieving unless and untill he achivied his goal!!",
+    name: "Vivek Gautam",
+    review: "lorem30",
   },
   {
     avatar: ava4,

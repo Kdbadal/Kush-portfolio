@@ -2,7 +2,7 @@ import React from 'react'
 import './contact.css'
 import {TbBrandGmail} from 'react-icons/tb'
 import {SiWhatsapp} from 'react-icons/si'
-import {RiMessengerLine} from 'react-icons/ri'
+// import {RiMessengerLine} from 'react-icons/ri'
 import { useRef } from 'react';
 import emailjs from 'emailjs-com'
 

@@ -21,12 +21,7 @@ const Services = () => {
               A pipeline is a process that drives software development through a path of building, testing, and deploying code
               </p>
             </li>
-            <li>
-              <BiRightArrow className="service__list-icon" />
-              <p>
-               A single source repository
-              </p>
-            </li>
+            
             <li>
               <BiRightArrow className="service__list-icon" />
               <p>Frequent check-ins to main branch</p>
@@ -57,24 +52,14 @@ const Services = () => {
               Improved team collaboration between quality assurance architects and developers, which ensures an efficient software lifecycle
               </p>
             </li>
-            <li>
-              <BiRightArrow className="service__list-icon" />
-              <p>Integrating multimedia content onto a site</p>
-            </li>
-            <li>
-              <BiRightArrow className="service__list-icon" />
-              <p>Testing web applications</p>
-            </li>
+          
             <li>
               <BiRightArrow className="service__list-icon" />
               <p>
                 Troubleshooting problems with performance or user experience
               </p>
             </li>
-            <li>
-              <BiRightArrow className="service__list-icon" />
-              <p>Collaborating with designers, developers, and stakeholders</p>
-            </li>
+            
           </ul>
         </article>
 
@@ -95,16 +80,33 @@ const Services = () => {
               <BiRightArrow className="service__list-icon" />
               <p>architect, deploy, and maintain the cloud infrastructure to meet your business needs.</p>
             </li>
-            <li>
-              <BiRightArrow className="service__list-icon" />
-              <p>Necessary and basic knowledge of microservices and instances</p>
-            </li>
-            <li>
-              <BiRightArrow className="service__list-icon" />
-              <p></p>
-            </li>
+           
           </ul>
         </article>
+
+        {/* <article className="service">
+          <div className="service__head">
+            <h3>Monitoring and Logging</h3>
+          </div>
+
+          <ul className="service__list">
+            <li>
+              <BiRightArrow className="service__list-icon" />
+              <p>
+              Implementation of monitoring and logging tools such as Prometheus, Grafana, and ELK Stack
+              </p>
+            </li>
+    
+            <li>
+              <BiRightArrow className="service__list-icon" />
+              <p>Creation of custom dashboards to provide real-time visibility into system performance and health</p>
+            </li>
+            <li>
+              <BiRightArrow className="service__list-icon" />
+              <p>Configuration of alerts and notifications to enable proactive issue resolution</p>
+            </li>
+          </ul>
+        </article> */}
       </div>
     </section>
   );
