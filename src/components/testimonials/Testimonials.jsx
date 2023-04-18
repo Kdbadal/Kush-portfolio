@@ -31,7 +31,7 @@ const data = [
   {
     avatar: ava3,
     name: "Vivek Gautam",
-    review: "lorem30",
+    review: "Overall, I would highly recommend Kushal for his good learning, collaborative approach, and ability to deliver results ",
   },
   {
     avatar: ava4,
@@ -57,7 +57,7 @@ const Testimonials = () => {
           return (
             <SwiperSlide key="index" className="testimonial">
               <div className="client__avatar">
-                <img src={avatar} alt={name} />
+                <img style={{ objectfit: 'cover', width: '100%', height: 'auto'}}src={avatar} alt={name} />
               </div>
               <h5 className="client__name"><strong>{name}</strong></h5>
               <small className="client__review">{review}</small>

@@ -32,12 +32,12 @@ const Contact = () => {
             <a href="mailto:badalkushal999.com" target="_blank">Send a Mail</a>
           </article>
 
-          <article className="contact__option">
+          {/* <article className="contact__option">
             <SiWhatsapp className='contact__option-icon'/>
             <h4>WhatsApp</h4>
             <h5>+91 7016570915</h5>
             <a href="https://wa.me/7016570915" target="_blank">Message Me</a>
-          </article>
+          </article> */}
 
           {/* <article className="contact__option">
             <RiMessengerLine className='contact__option-icon'/>
